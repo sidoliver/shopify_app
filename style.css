@@ -87,7 +87,7 @@ header img {
 }
 /* section 3 */
 .features {
-    margin: 60px 30px;
+    margin: 60px 30px 100px 30px;
     font-family: 'Roboto';
 }
 .features img {
@@ -103,5 +103,32 @@ header img {
 }
 .features p {
      line-height: 1.6;
-     color:rgb(109, 107, 107)
+     color:rgb(109, 107, 107);
+   
+}
+.company-gallery::before {
+    content: '';
+    height: 10px;
+    width: 90%;
+    border-bottom: 1px solid rgb(140, 139, 139);
+
+}
+.company-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.company-gallery::after {
+    content: '';
+    height: 10px;
+    width: 90%;
+    border-top: 1px solid rgb(140, 139, 139);
+
+}
+.company-gallery img {
+    height: 70px;
+    width: 100px;
+    margin-right: 50px;
+    padding: 5px 0;
 }
