@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 }
 header {
     /* height: 100px; */
@@ -75,4 +75,32 @@ header img {
     font-size: 0.8rem;
     text-align: center;
     line-height: 1.5;
+}
+.shop-open {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top: 550px;
+    left: 35px;
+}
+/* section 3 */
+.features {
+    margin: 60px 30px;
+    font-family: 'Roboto';
+}
+.features img {
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.features h4 {
+    margin-bottom: 10px;
+    color: #302f2f;
+    font-weight: 550;
+    letter-spacing: 0.4px;
+}
+.features p {
+     line-height: 1.6;
+     color:rgb(109, 107, 107)
 }
