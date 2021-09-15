@@ -12,6 +12,7 @@
     background-position: top center;
     background-size: cover;
     height: 100vh;
+    padding-bottom: 200px;
 }
 header {
     /* height: 100px; */
