@@ -1,134 +1,218 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 .main {
-    /* margin: 0 160px; */
-    background-image: url('images/bg.svg');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    height: 100vh;
-    padding-bottom: 200px;
+  /* margin: 0 160px; */
+  background-image: url("images/bg.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  /* height: 100%; */
+  padding-bottom: 200px;
 }
 header {
-    /* height: 100px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  /* height: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 header img {
-    height: 60px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 25px;
-    font-family: 'Roboto';
-    color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 25px;
+  font-family: "Roboto";
+  color: #fff;
 }
 .hero h1 {
-    font-size: 1.8rem;
-    font-weight: 500;
-    margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 .hero h2 {
-    font-size: 1.6rem;
-    font-weight: 400;
-    text-align: center;
-    line-height: 1.5;
-    margin-bottom: 40px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }
-.hero input,button {
-    width: 98%;
-    height: 55px;
-    font-family: 'Roboto';
-    font-size: 1rem;
-    box-shadow: 0 0 0 1px #d0d5da;
-    border: 1px solid transparent;
-    border-radius: 4px;
+.hero input,
+button {
+  width: 98%;
+  height: 55px;
+  font-family: "Roboto";
+  font-size: 1rem;
+  box-shadow: 0 0 0 1px #d0d5da;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
-.hero input,button {
-    padding: 0 20px;
-    color: rgb(109, 109, 109);
+.hero input,
+button {
+  padding: 0 20px;
+  color: rgb(109, 109, 109);
 }
-.hero input:focus, textarea:focus {
-    outline: none
+.hero input:focus,
+textarea:focus {
+  outline: none;
 }
 .hero button {
-    color: #fff;
-    background-color: #090a0b;
-    font-weight: bold;
-    margin-top: -8px;
-    margin-bottom: 20px;
+  color: #fff;
+  background-color: #090a0b;
+  font-weight: bold;
+  margin-top: -8px;
+  margin-bottom: 20px;
 }
 .hero p {
-    text-transform: capitalize;
-    font-family: Roboto;
-    font-size: 0.8rem;
-    text-align: center;
-    line-height: 1.5;
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.5;
+  padding-bottom: 100px;
 }
 .shop-open {
-    /* display: flex;
+  /* display: flex;
     justify-content: center;
     align-items: center; */
-    position: absolute;
-    top: 550px;
-    left: 35px;
+  position: absolute;
+  top: 550px;
+  left: 35px;
 }
 /* section 3 */
 .features {
-    margin: 60px 30px 100px 30px;
-    font-family: 'Roboto';
+  margin: 60px 30px 100px 30px;
+  font-family: "Roboto";
 }
 .features img {
-    height: 50px;
-    margin-bottom: 20px;
-    margin-top: 40px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 .features h4 {
-    margin-bottom: 10px;
-    color: #302f2f;
-    font-weight: 550;
-    letter-spacing: 0.4px;
+  margin-bottom: 10px;
+  color: #302f2f;
+  font-weight: 550;
+  letter-spacing: 0.4px;
 }
 .features p {
-     line-height: 1.6;
-     color:rgb(109, 107, 107);
-   
+  line-height: 1.6;
+  color: rgb(109, 107, 107);
 }
 .company-gallery::before {
-    content: '';
-    height: 10px;
-    width: 90%;
-    border-bottom: 1px solid rgb(140, 139, 139);
-
+  content: "";
+  height: 10px;
+  width: 90%;
+  border-bottom: 2px solid rgb(216, 214, 214);
+  margin-bottom: 50px;
 }
 .company-gallery {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .company-gallery::after {
-    content: '';
-    height: 10px;
-    width: 90%;
-    border-top: 1px solid rgb(140, 139, 139);
-
+  content: "";
+  height: 10px;
+  width: 90%;
+  border-top: 2px solid rgb(216, 214, 214);
+  margin-top: 50px;
 }
 .company-gallery img {
-    height: 70px;
-    width: 100px;
-    margin-right: 50px;
-    padding: 5px 0;
+  height: 70px;
+  width: 100px;
+  margin-right: 50px;
+  padding: 5px 0;
+}
+.description {
+  margin: 60px 30px;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description p {
+  font-size: 1.5rem;
+  letter-spacing: 0.7px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.ceo-msg {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+.description button {
+  margin-top: 30px;
+  width: 180px;
+  background-color: #008060;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* faq section */
+.faq-section {
+  margin: 50px 0;
+  font-family: Roboto;
+  background: rgb(250, 244, 244);
+}
+.wrapper {
+  margin: 0 10px 0 20px;
+}
+.faq-section h1 {
+  margin: 30px 0;
+  text-align: center;
+  color: #008060;
+  font-weight: 400;
+  padding: 60px 0 40px;
+}
+.questions {
+  padding: 20px 0;
+}
+.questions::after {
+  content: "";
+  height: 10px;
+  width: 90%;
+  border-top: 8px solid rgb(187, 40, 40);
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  width: 90%;
+}
+.question p {
+  font-size: 1.2rem;
+}
+.symbol {
+  width: 14%;
+}
+.answer {
+  color: rgba(37, 36, 36, 0.822);
+}
+.symbol .fas {
+    color: rgb(26, 25, 25);
+}
+.symbol .fa-minus {
+    display: none;
+}
+.symbol .fa-minus .active {
+    display:inline;
 }
