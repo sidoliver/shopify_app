@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
 }
 .main {
   /* margin: 0 160px; */
@@ -143,8 +142,9 @@ textarea:focus {
   align-items: center;
 }
 .description p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: 0.7px;
+  line-height: 1.8;
   font-weight: 400;
   margin-bottom: 30px;
   text-align: center;
@@ -152,8 +152,9 @@ textarea:focus {
 .ceo-msg {
   text-transform: uppercase;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
+  font-size: 0.8rem;
 }
 .description button {
   margin-top: 30px;
@@ -169,11 +170,12 @@ textarea:focus {
 /* faq section */
 .faq-section {
   margin: 50px 0;
+  padding: 20px 0;
   font-family: Roboto;
-  background: rgb(250, 244, 244);
+  background: rgb(243, 242, 242);
 }
 .wrapper {
-  margin: 0 10px 0 20px;
+  margin: 0 10px 140px 20px;
 }
 .faq-section h1 {
   margin: 30px 0;
@@ -182,30 +184,37 @@ textarea:focus {
   font-weight: 400;
   padding: 60px 0 40px;
 }
-.questions {
-  padding: 20px 0;
-}
-.questions::after {
-  content: "";
-  height: 10px;
-  width: 90%;
-  border-top: 8px solid rgb(187, 40, 40);
-}
 .question-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 2px solid rgba(180, 175, 175, 0.618);
 }
 .question {
-  width: 90%;
+  width: 85%;
 }
 .question p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-family: Roboto;
 }
 .symbol {
   width: 14%;
 }
 .answer {
   color: rgba(37, 36, 36, 0.822);
+  padding: 10px 60px 0  0;
+  line-height: 1.8;
+  display: none;
+}
+.answer p,.list-item {
+  font-size: 0.8rem;
+}
+.answer p::after {
+  content: "";
+  border-bottom: 100px solid rgb(0, 0, 0);
+  height: 2px;
+  width: 80%;
 }
 .symbol .fas {
     color: rgb(26, 25, 25);
@@ -213,6 +222,24 @@ textarea:focus {
 .symbol .fa-minus {
     display: none;
 }
-.symbol .fa-minus .active {
-    display:inline;
+.list-item {
+  margin: 10px 0 10px 30px;
+}
+/* footer */
+.footer {
+  list-style: none;
+  background: rgb(255, 255, 255);
+  padding: 20px 0;
+  
+}
+footer{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer li a {
+  text-decoration: none;
+  color: rgb(9, 211, 117);
 }
